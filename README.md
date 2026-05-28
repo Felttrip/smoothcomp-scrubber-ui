@@ -15,7 +15,7 @@ docker build -t local/scrubber .
 ## Build
 
 ```sh
-git clone https://github.com/deloachcd/smoothcomp-scrubber-ui.git
+git clone https://github.com/Felttrip/smoothcomp-scrubber-ui.git
 cd smoothcomp-scrubber-ui
 docker build -t local/scrubber-ui .
 ```
