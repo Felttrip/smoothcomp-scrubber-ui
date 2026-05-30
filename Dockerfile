@@ -1,13 +1,10 @@
 # ==============================================================================
 # smoothcomp-scrubber-ui
 # Web UI wrapper around smoothcomp-scrubber.
-# Builds on top of the scrubber base image.
-# Locally: docker build requires local/scrubber to exist first.
-# In future: update SCRUBBER_IMAGE to pull from a registry instead.
+# Builds on top of the smoothcomp-scrubber base image from Docker Hub
 # ==============================================================================
 
-ARG SCRUBBER_IMAGE=local/scrubber
-
+ARG SCRUBBER_IMAGE=deloachcd/smoothcomp-scrubber:may-2026
 FROM ${SCRUBBER_IMAGE}
 
 ARG DEBIAN_FRONTEND=noninteractive
